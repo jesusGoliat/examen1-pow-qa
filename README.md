@@ -131,8 +131,9 @@ La interpretación completa está en [docs/ci.md](docs/ci.md).
 
 | Rol | Enlace | Estado |
 |-----|--------|--------|
-| Revisión recibida en mi PR (compañero de equipo) | [conversación del PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172) | Pendiente de solicitar al compañero |
+| Revisión recibida en mi PR, de [Javier-Gamez](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172#pullrequestreview-5382926923) sobre `170802a` | [mi respuesta](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172#issuecomment-5936751948) · [copia](docs/respuesta-revision-pr172.md) | ✅ Respondida: una observación no bloqueante (la condición redundante en `onClick`), que se mantiene con justificación; sin cambios de código |
 | Observación técnica que hice al [PR #170](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/170) de luisAgt (SHA revisado `b33b0db`) | [mi revisión](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/170#pullrequestreview-5382923375) · [copia](docs/revision-pr170.md) · [evidencias](img/revision-pr170) | ✅ Publicada |
+| Observación técnica que hice al [PR #148](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/148) de Javier-Gamez (SHA revisado `92dddec`) | [mi revisión](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/148#pullrequestreview-5383208475) · [copia](docs/revision-pr148.md) · [evidencias](img/revision-pr148) | ✅ Publicada |
 
 ---
 

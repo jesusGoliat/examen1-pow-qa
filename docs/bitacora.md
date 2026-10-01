@@ -37,7 +37,10 @@ Los commits del repositorio de entrega son de documentación de QA y evidencias.
 
 ## Revisión técnica
 
-- **Revisión recibida en mi PR:** pendiente de solicitar a un compañero de equipo. La conversación y
+- **Revisión recibida en mi PR:** [Javier-Gamez](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172#pullrequestreview-5382926923) revisó `170802a`. Su única nota, no bloqueante, fue que el `if` en `onClick` repite lo que ya garantiza `enabled`.
+  - Respondí con evidencia: `PowButton` pasa `enabled` al `Button` de Material3, y en CP-02 hubo 0 líneas `SF-NET` al tocar el botón deshabilitado.
+  - Decidí mantenerlo, para no cambiar código ya probado ([respuesta](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172#issuecomment-5936751948)).
+  - No hubo commits nuevos, así que el SHA final sigue siendo `170802a`. La conversación y
   mis respuestas se registran en el [PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172).
 - **Revisión que di:** [PR #170 de luisAgt](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/170#pullrequestreview-5382923375), sobre el SHA `b33b0db`.
   - Leí el diff y compilé el SHA con el mismo comando del CI ([log](../img/revision-pr170/R2-gradle-b33b0db.log)).
@@ -46,6 +49,12 @@ Los commits del repositorio de entrega son de documentación de QA y evidencias.
   - Probé en el emulador «IA vs IA» con audio: el efecto de victoria/derrota sonó al terminar el combate y no al terminar la ronda 1.
   - Recomendé revertir el wrapper, quitar los MP4 y los MP3 duplicados, y confirmar el disparo por ronda (`battleEnded`) frente a `showEndMenu`.
   - Copia del texto: [revision-pr170.md](revision-pr170.md).
+- **Revisión que di (2):** [PR #148 de Javier-Gamez](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/148#pullrequestreview-5383208475), sobre el SHA `92dddec`.
+  - Compilé ese SHA ([log](../img/revision-pr148/R1-assembleDebug-92dddec.log)) y lo instalé limpio en el emulador. Mi celular no estaba disponible, así que la sesión fue mínima y el emulador se apagó al terminar.
+  - Reproduje su TC-02: la Biblioteca aparece bloqueada en una instalación limpia ([captura](../img/revision-pr148/R2-tc02-biblioteca-bloqueada-92dddec.png)).
+  - Probé un caso extra, la actualización de una partida guardada que ya había vencido a la Granadera ([antes](../img/revision-pr148/R3-partida-simulada-antes.xml), [después](../img/revision-pr148/R3-partida-simulada-despues.xml), [captura](../img/revision-pr148/R3-partida-simulada-biblioteca-desbloqueada-92dddec.png)). Aprobado.
+  - Recomendé sacar `docs/` (31 archivos, 8.6 MB) del diff, actualizar los conteos «16 mapas» en `SfStageCatalog.kt` y agregar pruebas unitarias del catálogo.
+  - Copia del texto: [revision-pr148.md](revision-pr148.md).
 
 ## Herramientas de IA utilizadas
 

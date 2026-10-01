@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="UNLOCKED_MAPS_V2">[&quot;fondo_biblioteca_ipn_anim.webp&quot;,&quot;fondo_biblioteca_ipn_noche_1_anim.webp&quot;,&quot;fondo_biblioteca_ipn_noche_2_anim.webp&quot;,&quot;fondo_cecyt_2_anim.webp&quot;,&quot;fondo_cecyt_2_noche_1_anim.webp&quot;,&quot;fondo_cecyt_2_noche_2_anim.webp&quot;,&quot;fondo_cecyt_9_anim.webp&quot;,&quot;fondo_cecyt_9_noche_1_anim.webp&quot;,&quot;fondo_cecyt_9_noche_2_anim.webp&quot;,&quot;fondo_escom_anim.webp&quot;,&quot;fondo_escom_noche_1_anim.webp&quot;,&quot;fondo_escom_noche_2_anim.webp&quot;,&quot;fondo_unam_biblioteca_cu_anim.webp&quot;,&quot;fondo_unam_biblioteca_cu_noche_1_anim.webp&quot;,&quot;fondo_unam_biblioteca_cu_noche_2_anim.webp&quot;]</string>
+    <boolean name="MAPS_FROM_FIGHTERS_V1" value="true" />
+    <string name="UNLOCKED_FIGHTERS_V2">[&quot;ESCOMBOY&quot;,&quot;ESCOMGIRL&quot;,&quot;ROBOT&quot;,&quot;POLICIA_GRANADERO_MUJER&quot;]</string>
+</map>
