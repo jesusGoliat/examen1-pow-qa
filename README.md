@@ -25,7 +25,7 @@
 | Checks de CI | [docs/ci.md](docs/ci.md) |
 | Entorno y preparación | [docs/entorno.md](docs/entorno.md) |
 | Bitácora y uso de IA | [docs/bitacora.md](docs/bitacora.md) |
-| Evidencias (capturas y logs) | [img/](img) |
+| Evidencias (capturas y logs) | [sección Evidencias](#evidencias) · [img/](img) |
 
 ---
 
@@ -110,6 +110,62 @@ del SHA probado.
 
 El detalle de cada caso (autor, fecha, SHA, dispositivo, precondiciones, pasos,
 esperado, real, estado, evidencia y decisión) está en [docs/pruebas.md](docs/pruebas.md).
+
+---
+
+## Evidencias
+
+Capturas tomadas con `adb exec-out screencap` en el emulador Pixel 3a (API 33). Las
+capturas «antes» son del SHA base `7ed3253`; las «después», del SHA probado `170802a`.
+La lista completa, con logs y una ficha por caso, está en [docs/pruebas.md](docs/pruebas.md).
+
+### Antes del cambio (base `7ed3253`): defecto reproducido
+
+**B-2: con `1.2.3.` el botón JOIN queda habilitado.**
+
+![Base: IP 1.2.3. con JOIN habilitado](img/03-base-ip-1.2.3.-join-habilitado.png)
+
+**B-2: al pulsarlo, la app intenta conectar 3 veces a una dirección imposible y muestra un error de red engañoso.**
+
+![Base: error de conexión tras unirse a 1.2.3.](img/04-base-join-1.2.3.-resultado.png)
+
+**B-4: el campo acepta letras (`a.b.c.d`) y también habilita JOIN.**
+
+![Base: letras aceptadas y JOIN habilitado](img/06-base-ip-letras-join-habilitado.png)
+
+### Después del cambio (rama `170802a`)
+
+**CP-02 (límite): con `1.2.3.`, JOIN queda deshabilitado y al tocarlo no hay ningún intento de conexión.**
+
+![Rama: IP 1.2.3. con JOIN deshabilitado](img/23-cp02-rama-ip-1.2.3.-join-deshabilitado.png)
+
+**CP-02 (límite): las letras se filtran (`a.b.c.d` queda en `...`) y JOIN sigue deshabilitado.**
+
+![Rama: letras filtradas](img/22-cp02-rama-letras-filtradas.png)
+
+**CP-01 (ruta feliz): una IP válida (`10.0.2.2`) habilita JOIN.**
+
+![Rama: IP válida con JOIN habilitado](img/31-cp01-rama-ip-10.0.2.2-join-habilitado.png)
+
+**CP-01 (ruta feliz): al pulsar JOIN se abre la conexión TCP real a `10.0.2.2:47645` y el listener recibe `BT_HELLO` (ver [logcat](img/logs/32-cp01-rama-logcat-join-10.0.2.2.txt)). El error final aparece porque el listener no es un anfitrión POW real, igual que en la base.**
+
+![Rama: resultado de unirse a 10.0.2.2](img/32-cp01-rama-join-10.0.2.2-resultado.png)
+
+**CP-03 (regresión): CREAR SERVIDOR sigue mostrando las IPs locales, igual que en la base.**
+
+![Rama: crear servidor](img/34-cp03-rama-crear-servidor.png)
+
+**CP-04 (navegación y estado): tras Home y regresar, la IP escrita se conserva y JOIN sigue habilitado.**
+
+![Rama: regreso conserva la IP](img/41-cp04-rama-regreso-conserva-ip.png)
+
+**CP-05 (accesibilidad): con fuente 1.3, la etiqueta, la IP y el botón se leen completos.**
+
+![Rama: fuente ampliada 1.3](img/51-cp05-rama-fuente-1.3-ip-valida.png)
+
+**CP-06 (entorno): con la app en español, «UNIRSE» se comporta igual: deshabilitado con una IP inválida.**
+
+![Rama: app en español con IP inválida](img/61-cp06-rama-es-ip-invalida.png)
 
 ---
 
