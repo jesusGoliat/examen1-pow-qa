@@ -37,7 +37,7 @@ Los commits del repositorio de entrega son de documentación de QA y evidencias.
 
 ## Revisión técnica
 
-- **Revisión recibida en mi PR:** solicitada a un compañero de equipo. La conversación y
+- **Revisión recibida en mi PR:** pendiente de solicitar a un compañero de equipo. La conversación y
   mis respuestas se registran en el [PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172).
 - **Revisión que di:** observación técnica en el PR de un compañero de equipo. El enlace se
   agrega en el [README](../README.md#revisión) al publicarla.

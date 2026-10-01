@@ -131,7 +131,7 @@ La interpretación completa está en [docs/ci.md](docs/ci.md).
 
 | Rol | Enlace | Estado |
 |-----|--------|--------|
-| Revisión recibida en mi PR (compañero de equipo) | [conversación del PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172) | Solicitada |
+| Revisión recibida en mi PR (compañero de equipo) | [conversación del PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172) | Pendiente de solicitar al compañero |
 | Observación técnica que hice al PR de un compañero | *se agrega al publicarla* | Pendiente |
 
 ---
