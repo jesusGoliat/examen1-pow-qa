@@ -1,0 +1,13 @@
+# Apuntes personales y material de referencia (no forman parte de la entrega)
+LECCIONES_APRENDIDAS.md
+*.pdf
+notas/
+# Binarios y credenciales
+*.apk
+*.aab
+local.properties
+secrets.properties
+google-services.json
+*.jks
+*.keystore
+.env
