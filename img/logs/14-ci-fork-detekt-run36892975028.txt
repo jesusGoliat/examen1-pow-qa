@@ -1,0 +1,8 @@
+detekt	Download detekt CLI	﻿2026-10-01T16:35:05.2595345Z ##[group]Run curl -sSL -o detekt-cli.zip \
+detekt	Download detekt CLI	2026-10-01T16:35:05.2595786Z ^[[36;1mcurl -sSL -o detekt-cli.zip \^[[0m
+detekt	Download detekt CLI	2026-10-01T16:35:05.2596425Z ^[[36;1m  "https://github.com/detekt/detekt/releases/download/v${DETEKT_VERSION}/detekt-cli-${DETEKT_VERSION}.zip"^[[0m
+detekt	Download detekt CLI	2026-10-01T16:35:05.2599159Z ^[[36;1munzip -q -o detekt-cli.zip^[[0m
+detekt	Run detekt (blocking)	﻿2026-10-01T16:35:07.2693534Z ##[group]Run BASELINE_ARG=""
+detekt	Run detekt (blocking)	2026-10-01T16:35:07.2693893Z ^[[36;1mBASELINE_ARG=""^[[0m
+detekt	Run detekt (blocking)	2026-10-01T16:35:07.2694175Z ^[[36;1mif [ -f PolitecnicoOpenWorld/config/detekt/baseline.xml ]; then^[[0m
+detekt	Run detekt (blocking)	2026-10-01T16:35:07.2694580Z ^[[36;1m  BASELINE_ARG="--baseline PolitecnicoOpenWorld/config/detekt/baseline.xml"^[[0m

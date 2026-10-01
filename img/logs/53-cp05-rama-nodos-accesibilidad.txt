@@ -1,0 +1,3 @@
+<node text="1.2.3." class="android.widget.EditText" content-desc="" clickable="true" enabled="true" focusable="true" focused="true" selected="false" bounds="[737,695][1232,871]">
+<node text="" class="android.view.View" content-desc="" clickable="true" enabled="false" focusable="false" focused="false" selected="false" bounds="[1254,719][1483,851]">
+<node text="JOIN" class="android.widget.TextView" content-desc="" clickable="false" enabled="true" focusable="false" focused="false" selected="false" bounds="[1320,757][1417,812]" />

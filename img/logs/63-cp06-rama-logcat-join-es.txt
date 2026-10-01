@@ -1,0 +1,5 @@
+--------- beginning of main
+10-01 10:54:50.336 D/SF-NET  (26926): WifiLock adquirido (mantiene el Wi-Fi despierto)
+10-01 10:54:50.658 D/SF-NET  (26926): conectado a 10.0.2.2:47645 → handshake
+10-01 10:54:50.660 D/SF-NET  (26926): peer conectado (invitado): enviando BT_HELLO
+10-01 10:54:51.157 W/SF-NET  (26926): readLoop: EOF (el peer cerró la conexión)
