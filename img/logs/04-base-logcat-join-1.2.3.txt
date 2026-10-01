@@ -1,0 +1,6 @@
+--------- beginning of main
+10-01 10:15:07.987 D/SF-NET  ( 4069): WifiLock adquirido (mantiene el Wi-Fi despierto)
+10-01 10:15:08.120 W/SF-NET  ( 4069): intento 1 de conectar a 1.2.3.:47645 falló: 1.2.3.
+10-01 10:15:09.121 W/SF-NET  ( 4069): intento 2 de conectar a 1.2.3.:47645 falló: 1.2.3.
+10-01 10:15:10.130 W/SF-NET  ( 4069): intento 3 de conectar a 1.2.3.:47645 falló: 1.2.3.
+10-01 10:15:10.141 E/SF-NET  ( 4069): connect LAN falló

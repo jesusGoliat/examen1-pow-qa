@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2026-10-01T16:30:32.215Z" hostname="jesus-ThinkPad-E460" time="0.035">
+  <properties/>
+  <testcase name="rechaza ceros a la izquierda" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.003"/>
+  <testcase name="rechaza tres puntos con octetos vacios" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.0"/>
+  <testcase name="el filtro deja solo digitos y puntos" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.007"/>
+  <testcase name="acepta una IP privada tipica de red domestica" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.001"/>
+  <testcase name="el filtro conserva completa la IP mas larga y corta lo que sobra" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.0"/>
+  <testcase name="rechaza mas o menos de cuatro octetos" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.01"/>
+  <testcase name="acepta los extremos 0 y 255 en cada octeto" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.0"/>
+  <testcase name="rechaza un octeto mayor a 255" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.001"/>
+  <testcase name="acepta la IP del hotspot y la del host del emulador" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.0"/>
+  <testcase name="rechaza el campo vacio" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.001"/>
+  <testcase name="rechaza un octeto de mas de tres digitos" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.0"/>
+  <testcase name="rechaza letras espacios y signos" classname="ovh.gabrielhuav.pow.domain.streetfighter.SfLanIpTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
