@@ -1,1 +1,0 @@
-10:41:29 conexion desde ('127.0.0.1', 48828) bytes: b'{"type":"BT_HELLO"}\n'
