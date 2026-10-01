@@ -39,8 +39,13 @@ Los commits del repositorio de entrega son de documentación de QA y evidencias.
 
 - **Revisión recibida en mi PR:** pendiente de solicitar a un compañero de equipo. La conversación y
   mis respuestas se registran en el [PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172).
-- **Revisión que di:** observación técnica en el PR de un compañero de equipo. El enlace se
-  agrega en el [README](../README.md#revisión) al publicarla.
+- **Revisión que di:** [PR #170 de luisAgt](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/170#pullrequestreview-5382923375), sobre el SHA `b33b0db`.
+  - Leí el diff y compilé el SHA con el mismo comando del CI ([log](../img/revision-pr170/R2-gradle-b33b0db.log)).
+  - Reproduje que `./gradlew` sigue fallando sin el jar ([log](../img/revision-pr170/R1-gradlew-sin-jar-b33b0db.log)).
+  - Medí que el APK crece 8.65 MB por los MP4 de QA ([assets](../img/revision-pr170/R3-apk-assets-b33b0db.txt)).
+  - Probé en el emulador «IA vs IA» con audio: el efecto de victoria/derrota sonó al terminar el combate y no al terminar la ronda 1.
+  - Recomendé revertir el wrapper, quitar los MP4 y los MP3 duplicados, y confirmar el disparo por ronda (`battleEnded`) frente a `showEndMenu`.
+  - Copia del texto: [revision-pr170.md](revision-pr170.md).
 
 ## Herramientas de IA utilizadas
 

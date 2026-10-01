@@ -1,0 +1,6 @@
+b33b0db fix: update gradle wrapper to 9.5.0 and resolve secrets DSL configuration
+openjdk version "21.0.12.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Corretto-21.0.12.9.1 (build 21.0.12.1+9-LTS)
+OpenJDK 64-Bit Server VM Corretto-21.0.12.9.1 (build 21.0.12.1+9-LTS, mixed mode, sharing)
+Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+Caused by: java.lang.ClassNotFoundException: org.gradle.wrapper.GradleWrapperMain

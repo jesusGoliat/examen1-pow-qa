@@ -1,0 +1,10 @@
+   146840  1981-01-01 01:01   assets/AUDIO/lose_effect.mp3
+   102328  1981-01-01 01:01   assets/AUDIO/start_round_effect.mp3
+   106716  1981-01-01 01:01   assets/AUDIO/victory_effect.mp3
+  1627886  1981-01-01 01:01   assets/DOCS/new_lose.mp4
+  1750275  1981-01-01 01:01   assets/DOCS/new_win_n_fight.mp4
+  2648630  1981-01-01 01:01   assets/DOCS/old_lose.mp4
+  1898741  1981-01-01 01:01   assets/DOCS/old_win_n_fight.mp4
+   146840  1981-01-01 01:01   assets/STREETFIGHTER/SOUNDS/lose_effect.mp3
+   102328  1981-01-01 01:01   assets/STREETFIGHTER/SOUNDS/start_round_effect.mp3
+   106716  1981-01-01 01:01   assets/STREETFIGHTER/SOUNDS/victory_effect.mp3

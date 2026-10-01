@@ -132,7 +132,7 @@ La interpretación completa está en [docs/ci.md](docs/ci.md).
 | Rol | Enlace | Estado |
 |-----|--------|--------|
 | Revisión recibida en mi PR (compañero de equipo) | [conversación del PR #172](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/172) | Pendiente de solicitar al compañero |
-| Observación técnica que hice al PR de un compañero | *se agrega al publicarla* | Pendiente |
+| Observación técnica que hice al [PR #170](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/170) de luisAgt (SHA revisado `b33b0db`) | [mi revisión](https://github.com/gabrielhuav/PolitecnicoOpenWorld/pull/170#pullrequestreview-5382923375) · [copia](docs/revision-pr170.md) · [evidencias](img/revision-pr170) | ✅ Publicada |
 
 ---
 
