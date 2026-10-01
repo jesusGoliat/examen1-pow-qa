@@ -10,7 +10,6 @@
 - **Periodo:** 2027-1
 - **Fecha de entrega:** jueves 1 de octubre de 2026
 
-*(La boleta y los datos de identificación escolar quedan en Classroom, como pide el enunciado.)*
 
 ---
 
